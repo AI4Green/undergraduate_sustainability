@@ -1,5 +1,5 @@
-# undergraduate_sustainability
-Code for assessing undergraduate teaching lab experiments by relevant sustainability metrics.
+# undergraduate_green_chemistry
+Code for assessing undergraduate teaching lab experiments by relevant green chemistry metrics.
 
 This code is set up to calculate the Average Yield, Product Mass, Mass Efficiency, Effective Mass Yield, Mass Intensity, Sum of Waste and E-factor for each of the experiments using data about the yields achieved and the experiments input from the csv files. 
 
@@ -17,6 +17,6 @@ The example csv files "Y1_Yield_data" and "Y1 Reactions" show how the data needs
 
 You can input your reactions into the AI4Green ELN (https://ai4green.app/) as a useful tool to highlight which reagents are hazardous, and it will also be able to provide more insights about sustainability of your reaction, including atom economy, as well as highlighing the impacts of conditions of reactions. 
 
-To use the code, copy the two file locations into the bracets of df_yield_data = pd.read_csv(r"C:\Users\imoge\Y1_Yield_Data.csv")  and df_exp = pd.read_csv(r"C:\Users\imoge\Y1 Reactions.csv") in the first cell to replace "C:\Users\imoge\Y1_Yield_Data.csv" and "C:\Users\imoge\Y1 Reactions.csv". 
+To use the code, copy the two file locations into the brackets of df_yield_data = pd.read_csv(r"C:\Users\imoge\Y1_Yield_Data.csv")  and df_exp = pd.read_csv(r"C:\Users\imoge\Y1 Reactions.csv") in the first cell to replace "C:\Users\imoge\Y1_Yield_Data.csv" and "C:\Users\imoge\Y1 Reactions.csv". 
 
 Then run all cells, and this will produce a csv file called "metrics.csv" and will generate a set of graphs that can be downloaded. 
